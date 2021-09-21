@@ -19,7 +19,7 @@ Requirements:
 Advantages: 
 - [x] - A font with custom icons is used instead of separate icon files. 
 
-**Task 2 **
+**Task 2.**
 
 Requirements: 
 - There is an error message under input that shows validation messages if: 
@@ -29,6 +29,6 @@ Requirements:
 - [x] - Once validation has passed, the error disappears. 
 - [x] - The button is disabled if the form is not valid.
 
-**Task 3 **
+**Task 3.**
 
 Not enough knowledge in this area at the present time.
