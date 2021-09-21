@@ -21,7 +21,6 @@ Advantages:
 
 **Task 2 **
 
-JavaScript Based on Task 1 you have to create subscription input validation. In this task, you must show your knowledge about writing fast and memory-efficient JavaScript. 
 Requirements: 
 - There is an error message under input that shows validation messages if: 
 	- [x] - Invalid email is added - “Please provide a valid e-mail address” 
