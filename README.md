@@ -1,5 +1,5 @@
 # web-developer-test
-Magebit Web Developer test task
+Web Developer test task
 
 How to:
  - Download, unpack and open index.html in a Browser. Styles and scripts imported in the index.html
