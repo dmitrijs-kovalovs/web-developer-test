@@ -1,0 +1,84 @@
+<!-- Created by Dmitrijs Kovalovs -->
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<meta content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+
+		<link rel="stylesheet" href="css/normalize.css"><!-- Normalizes styles for a wide range of elements. Taken from here - https://ageek.dev/normalize-css -->
+		<link rel="stylesheet" href="css/styles.css"><!-- Test work styles -->
+		<link rel="stylesheet" href="css/font-awesome-470-custom.css"><!-- A font with custom icons is used instead of separate icon files. -->
+
+		<script src="js/scripts.js"></script><!-- Test work JavaScript -->
+
+		<title>Subscribe to newsletter</title>
+
+	</head>
+	<body>
+
+		<div class="wrap"><!-- Page wrap -->
+
+			<header class="header">
+				<div class="container"><!-- Container for header content -->
+					<a href="#" class="logo desktop"><img src="img/logo_pineapple.svg" alt=""></a><!-- displays only for desktops -->
+					<a href="#" class="logo mobile"><img src="img/logo_pineapple_mobile.svg" alt=""></a><!-- displays only for mobiles -->
+					<div class="menu">
+						<ul>
+							<li class="menu-item"><a href="">About</a></li>
+							<li class="menu-item"><a href="">How it works</a></li>
+							<li class="menu-item"><a href="">Contact </a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+	
+			<main>
+				<div class="form-wrap"><!-- Form wrap -->
+					<form action="#" id="form" class="form-body">
+
+						<h1 class="form-title">Subscribe to newsletter</h1>
+						<p class="form-text">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+	
+						<div class="form-item form-item-email"><!-- Email input -->
+							<div class="email-input-wrap">
+								<label for="formEmail" class="form-label"></label>
+							<input id="formEmail" type="email" name="email" class="form-input email required" placeholder="Type your email address here…"><!-- Used regular expression for validating e-mail addresses. -> pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" -->
+							<button type="submit" id="submit" class="form-btn" value="submit"><i class="icon-right"></i><!-- This icon is more bold than in the design, but that's the only one I found on https://fontello.com/ --></button>
+							</div>
+						</div>
+						
+						<div class="form-item form-item-checkbox"> <!-- Checkbox input -->
+							<div class="checkbox">
+								<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox-input checkbox required">
+								<label for="formAgreement" class="form-checkbox-label">
+									<span>I agree to <a href="#">terms of service</a></span>
+								</label>
+							</div>
+						</div>
+	
+						<div class="line-separator"></div>
+	
+						<div class="social-links">
+							<ul>
+								<li class="social-link facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+								<li class="social-link instagram"><a href="#"><i class="icon-instagram"></i></a></li>
+								<li class="social-link twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+								<li class="social-link youtube"><a href="#"><i class="icon-youtube-play"></i></a></li>
+							</ul>
+						</div>
+	
+					</form>
+	
+				</div>
+			</main>
+
+			<footer>
+	
+			</footer>
+
+		</div>
+
+	</body>
+</html>
